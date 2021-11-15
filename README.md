@@ -9,8 +9,11 @@ command = f'./derive -g --mnemonic="{mnemonic}" --coin="{coin}" --numderive="{nu
 
 from wallet import *
 BTCTEST: derive_wallets(coin = BTCTEST)
+
 ETH: derive_wallets(coin = ETH)
+
 send_tx(BTCTEST, btc_acc, derive_wallets(mnemonic, BTCTEST, 5)[1]['address'], 0.001)
+
 send_tx(ETH, eth_acc, derive_wallets(mnemonic, ETH, 5)[1]['address'], 0.1)
 
 ## Proof of Transactions
