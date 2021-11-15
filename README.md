@@ -19,3 +19,5 @@ send_tx(ETH, eth_acc, derive_wallets(mnemonic, ETH, 5)[1]['address'], 0.1)
 ## Proof of Transactions
 
 <img width="507" alt="Screen Shot 2021-11-15 at 4 55 05 pm" src="https://user-images.githubusercontent.com/84065878/141762330-d8123cf0-9bdb-4efd-8f83-f1e03534479f.png">
+
+<img width="1305" alt="Screen Shot 2021-11-15 at 9 06 49 pm" src="https://user-images.githubusercontent.com/84065878/141762758-ea3101e3-630d-4857-b5a7-a65dc835e8aa.png">
